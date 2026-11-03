@@ -21,7 +21,3 @@
            }
        }
    }
-               echo 'Things were different before...'
-           }
-       }
-   }
