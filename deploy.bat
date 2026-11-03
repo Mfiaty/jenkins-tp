@@ -1,0 +1,3 @@
+@echo off
+echo Deploiement vers l'environnement %1...
+echo Deploiement %1 termine
