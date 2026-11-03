@@ -1,9 +1,14 @@
    pipeline {
        agent any
        stages {
-           stage('build') {
+           stage('Build') {
                steps {
-                   bat 'docker run --rm python:3.15.2-alpine3.24 python --version'
+                   bat 'echo Hello World'
+                   bat '''
+                       echo Multiline batch steps works too
+                       dir
+                   '''
+                   bat 'set'
                }
            }
        }
