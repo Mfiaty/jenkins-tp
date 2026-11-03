@@ -3,7 +3,7 @@
        stages {
            stage('No-op') {
                steps {
-                   sh 'ls'
+                   bat 'dir'
                }
            }
        }
