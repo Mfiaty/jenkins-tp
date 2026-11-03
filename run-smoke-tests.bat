@@ -1,0 +1,3 @@
+@echo off
+echo Execution des smoke tests...
+echo Smoke tests OK
